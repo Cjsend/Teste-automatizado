@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: #f5f7fb;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .form-section,
+  .list-section {
+    margin-bottom: 20px;
+  }
+  
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d7e0;
+    border-radius: 4px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button#btnSave {
+    background: #2b7aee;
+    color: #fff;
+  }
+  
+  button#btnClear {
+    background: #e9edf5;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #eef2f7;
+  }
+  
+  .actions-btn {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .small-btn {
+    padding: 6px 8px;
+    border-radius: 4px;
+    background: #f1f5f9;
+    border: 1px solid #dbe6fb;
+    cursor: pointer;
+  }
+  
